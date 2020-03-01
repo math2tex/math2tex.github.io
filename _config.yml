@@ -1,7 +1,7 @@
-title: TaniaJekyll
-description: Beautiful personal Jekyll theme
-baseurl: "/TaniaJekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: Math2TeX
+description: Chuyên trang về Toán học và LaTeX
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://math2tex.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 title-separator: "-"
 
@@ -16,10 +16,10 @@ author:
 timezone: "Europe/Paris"
 markdown: kramdown
 kramdown:
-  input: GFM
+input: GFM
 highlighter: rouge
 permalink: /:categories/:title
-# paginate: 24
+paginate: 24
 # paginate_path: "/thought/page-:num"
 
 # Facebook App ID
